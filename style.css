@@ -16,6 +16,22 @@ body {
     gap: 50px;
 }
 
+.none {
+    display: none;
+}
+
+.description{
+    text-align: center;
+    padding: 20px;
+}
+
+.description h2 {
+}
+
+.description h4{
+    opacity: 0.6;
+}
+
 .player{
     display: flex;
     flex-direction: column;
@@ -34,7 +50,6 @@ body {
     background-color: #00ff85;
     width: 10px;
     height: 10px;
-    margin-left: 60%;
     border-radius: 100%;
 }
 
@@ -47,12 +62,19 @@ body {
 }
 
 .line{
-    display: flex;
     align-items: center;
+    display: flex;
     border-radius: 10px;
-    background-color: #00ff85;
-    height: 5px;
+    border: 1px solid #00ff85;
+    height: 8px;
     width: 350px;
+}
+
+progress {
+    border-radius: 50px;
+    height: 8px;
+    width: 0%;
+    z-index: -1;
 }
 
 .control img {
